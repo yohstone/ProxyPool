@@ -1,5 +1,8 @@
 <?php
 
+// 设置时区
+date_default_timezone_set('PRC');
+
 // 当前路径
 define("BASE_PATH", str_replace("\\", "/", realpath(dirname(__FILE__))));
 
