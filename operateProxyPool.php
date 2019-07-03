@@ -1,4 +1,17 @@
 <?php
+/**
+* operateProxyPool.php 代理池维护工具
+*
+* @version    v0.01
+* @createtime 2019/07/01
+* @updatetime 
+* @author     yjl(steve stone)
+* @copyright  Copyright (c) yjl(steve stone)
+* @info
+* 在操作系统后台运行，每3个小时更新一次代理池
+* 
+*/
+
 require('./config.php');
 require('./function.php');
 
