@@ -1,4 +1,4 @@
-# ProxyPool
+# Proxy Pool
 
 A tool for creating and maintaining IP proxy pool.
 [more...](https://steve.blog.csdn.net/article/details/94062180)
