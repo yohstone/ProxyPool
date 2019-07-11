@@ -50,7 +50,7 @@ function get_proxy($urls){
                     $html = iconv("GBK", "UTF-8", $html);
                 }
                 // 保存html源码，便于分析，若不需要可注释掉
-                $html_filename = BASE_PATH. "/htmlCode/$i/";
+                $html_filename = BASE_PATH. "/html_code/$i/";
                 if( !file_exists($html_filename) ){
                     mkdir($html_filename);
                 }
